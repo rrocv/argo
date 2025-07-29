@@ -10,12 +10,10 @@ spec:
   selector:
     matchLabels:
       app: guestbook-ui
-      tier: frontend
   template:
     metadata:
       labels:
         app: guestbook-ui
-        tier: frontend
     spec:
       containers:
       - name: guestbook-ui
