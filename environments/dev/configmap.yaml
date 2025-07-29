@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: guestbook-config
+data:
+  message: "Hello from Development Environment!"
+  version: "1.0.0"
