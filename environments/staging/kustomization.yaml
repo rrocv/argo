@@ -3,6 +3,7 @@ kind: Kustomization
 namespace: guestbook-staging
 resources:
   - ../../base/guestbook
+  - configmap.yaml
 patchesStrategicMerge:
   - replica-patch.yaml
 commonLabels:
