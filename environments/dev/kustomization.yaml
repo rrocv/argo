@@ -6,5 +6,6 @@ resources:
   - configmap.yaml
 patchesStrategicMerge:
   - replica-patch.yaml
+  - image-patch.yaml
 commonLabels:
   environment: dev
